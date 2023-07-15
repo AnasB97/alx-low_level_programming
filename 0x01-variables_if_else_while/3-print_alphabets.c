@@ -10,7 +10,6 @@ int main(void)
 {
 char lowercase;
 char uppercase;
-printf("Lowercase and Uppercase alphabets:\n");
 for (lowercase = 'a'; lowercase <= 'z'; lowercase++)
 {
 putchar(lowercase);
