@@ -1,7 +1,4 @@
-#ifndef MAIN_H
-#define MAIN_H
-
-#include<stdio.h>
+#include "main.h"
 
 /**
  * main - print _putchat followed by a new line
@@ -9,7 +6,14 @@
  * Return: Always 0 (Success)
  */
 
-int _putchar(char c)
+int main(void)
 {
-	return (write(1, &c, 1));
+	char s[] = "_putchar";
+	int i;
+
+	for (i = 0; i < 8; i++)
+		_putchar(s[i]);
+	_putchar("\n");
+
+	return (0);
 }
