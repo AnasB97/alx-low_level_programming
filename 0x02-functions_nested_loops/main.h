@@ -1,9 +1,11 @@
 #ifndef main_h
 #define main_h
 
+#include <stdio.h>
+
 int _putchar(char);
 void print_alphabet(void);
-void print_alphabet-x10(void);
+void print_alphabet_x10(void);
 void _islower(int c);
 void _isalpha(int c);
 int print_sign(int n);
